@@ -1,0 +1,6 @@
+framework module SGSScanner {
+  umbrella header "SGSScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}
