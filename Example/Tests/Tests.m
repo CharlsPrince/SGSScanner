@@ -2,11 +2,12 @@
 //  SGSScannerTests.m
 //  SGSScannerTests
 //
-//  Created by CharlsPrince on 09/05/2017.
-//  Copyright (c) 2017 CharlsPrince. All rights reserved.
+//  Created by Lee on 01/12/2017.
+//  Copyright (c) 2017 Lee. All rights reserved.
 //
 
 @import XCTest;
+#import "NSString+SGSRegex.h"
 
 @interface Tests : XCTestCase
 
@@ -28,7 +29,13 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSString *nilStr = nil;
+    XCTAssertFalse([nilStr isConsists7bitASCIICharacters], @"空字符串");
+    XCTAssertFalse([@"" isConsists7bitASCIICharacters], @"空字符串");
+    XCTAssertTrue([@"123abc!@#" isConsists7bitASCIICharacters], @"由ascii码组成");
+    XCTAssertTrue([@"123abcABC!@#$%^&*()_+-=[]\\{}|;':\",./<>?~`" isConsists7bitASCIICharacters], @"由ascii码组成");
+    XCTAssertFalse([@"123abc!@#【】" isConsists7bitASCIICharacters], @"包含非ascii码字符");
+    XCTAssertFalse([@"123abc!@#😄" isConsists7bitASCIICharacters], @"包含非ascii码字符");
 }
 
 @end

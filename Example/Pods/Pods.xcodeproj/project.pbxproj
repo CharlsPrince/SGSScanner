@@ -7,30 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		248EE3A59D7302A912C170D406ADC2BE /* SGSScanPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186692D719AA4DEE4088FE23711B5DF7 /* SGSScanPreviewView.m */; };
-		334BC824C138AE5837B6EE73BA964FE1 /* SGSScanPreviewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CFF1923A5A7D1897B25DF92206A2A0 /* SGSScanPreviewStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37BD5680AEBFDFDFBD23A8291C0A7961 /* SGSScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 41C526650483ED8E01DD294BB671302B /* SGSScannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DC5D165CAC7AE63D5ED46EAE12D66CF /* NSBundle+SGSScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 06730381E06B71A33AF7B37C133D974C /* NSBundle+SGSScanner.m */; };
-		464C80A59131149A7F5B46DAC2612F13 /* SGSScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D6C945B34B639241CAF989F6FAE8AD /* SGSScanner-dummy.m */; };
-		5D8E87EDAD58673ADF5F2B577BB1FB20 /* SGSScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6C66E4C5FED62A811DBEC207653FF7 /* SGSScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BDCAC10AFE9DD62C7310C158682DD76 /* scanner_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B35EEF72C267E5649D01E81C2C6727D /* scanner_grid.png */; };
+		248EE3A59D7302A912C170D406ADC2BE /* SGSScanPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7DCF80EB52D8BA61B46C8693682739 /* SGSScanPreviewView.m */; };
+		256DB458C6FC1E73E1F8FAFF549A6B3B /* scanner_green_line.png in Resources */ = {isa = PBXBuildFile; fileRef = DE2144FCDD92DA6C63DA5BAF11807A01 /* scanner_green_line.png */; };
+		334BC824C138AE5837B6EE73BA964FE1 /* SGSScanPreviewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 227E12B3C9FB581F2ECF2DD3DCDE9B02 /* SGSScanPreviewStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37BD5680AEBFDFDFBD23A8291C0A7961 /* SGSScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F44502078D0356091EA241847DB06A4A /* SGSScannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DC5D165CAC7AE63D5ED46EAE12D66CF /* NSBundle+SGSScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EDDA95F2A469C563A4595677C55E60 /* NSBundle+SGSScanner.m */; };
+		464C80A59131149A7F5B46DAC2612F13 /* SGSScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA906E1EE5E77880B64EB5AE25DFD3D0 /* SGSScanner-dummy.m */; };
+		5D8E87EDAD58673ADF5F2B577BB1FB20 /* SGSScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C18C58EADDDD26D6756B8E8AC547AE /* SGSScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F08B9545ECC1BE3A900262CE9C578F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1310D6EC5D51D33497F7499F9F52BB7 /* Foundation.framework */; };
+		5F5EE830C6D386E5CCAC1D4EF11DB01B /* SGSScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20D601663A4CA1CCE5C036C79F173A3A /* SGSScanner.bundle */; };
+		65608FF7E6DBAA460668DB72A91356FA /* scanner_nav_back_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 32569DA08CD3C9BB20ED87EF594BF701 /* scanner_nav_back_pressed.png */; };
 		68A33E159AE70FCBA71B2EBBDF06978D /* Pods-SGSScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F665A6F07EDA149DFDEE6C858C798 /* Pods-SGSScanner_Example-dummy.m */; };
-		70DE58F8B37F99B535B1CCA3ABE75986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7658E1CD6B9200204BE2632D38D144E1 /* SGSScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86959D7D495F8E3BF44D2E36484B453 /* SGSScannerViewController.m */; };
-		89688C812E2CA4599A51A9F54769E66B /* SGSScanPreviewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7F1F1E2C0C1FC1A297FC58B782D25 /* SGSScanPreviewStyle.m */; };
-		8C01745B3DB30E16D511CFD4E2451815 /* NSBundle+SGSScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = DB873714A0EEF7FCB8D18EB7B9A2CB10 /* NSBundle+SGSScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99B51B4552F7F3FE88CAC3ACA1A73337 /* SGSScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BED479D8079CCFF051BD54BABFB68367 /* SGSScannerView.m */; };
-		99C1AAAAC43DD0C706A85A3EB9B20673 /* SGSScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B52CD3F6B75AE3C8CD80A08B708A432B /* SGSScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DE58F8B37F99B535B1CCA3ABE75986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1310D6EC5D51D33497F7499F9F52BB7 /* Foundation.framework */; };
+		7658E1CD6B9200204BE2632D38D144E1 /* SGSScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC824CAA1CFF6FD16A5B879DEEC2442 /* SGSScannerViewController.m */; };
+		78A1C1CD4AB69A2888904F5972675AEE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FEE101CACF7AC0906D397660A526AB /* AVFoundation.framework */; };
+		89688C812E2CA4599A51A9F54769E66B /* SGSScanPreviewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E4801E2AA256D83E420AFD52B9DFE /* SGSScanPreviewStyle.m */; };
+		8C01745B3DB30E16D511CFD4E2451815 /* NSBundle+SGSScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9120C73EEE3E059932044C6228175F8D /* NSBundle+SGSScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99B51B4552F7F3FE88CAC3ACA1A73337 /* SGSScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B33F3C70D4555FB19B8280458862FFE /* SGSScannerView.m */; };
+		99C1AAAAC43DD0C706A85A3EB9B20673 /* SGSScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2572C44DFCAE1216805D463E9CE9E628 /* SGSScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A4AB404AF654CB30DFFA89B33E611AB /* Pods-SGSScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD107A7A391BAEBD779C049EA2BB9B7 /* Pods-SGSScanner_Tests-dummy.m */; };
-		A08532FA83E11CB997AC53822BDF5D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A5FF10C94D88090847623005CEDABC74 /* SGSScanUtilDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F64B4001771C00FEB01CA268D4F393D /* SGSScanUtilDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE4084E997D866B2AAEC1C3AD2279171 /* SGSScannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2DFF673EAA860A27A3DE981CE65D3A /* SGSScannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9C790250864DBCAA1B871DB166651E8 /* SGSScanUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E074887347844C01B657E2AE6883121 /* SGSScanUtil.m */; };
+		9ECF0E3CEC5B62CC2BCCB69E799ED8FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DF7486DA9C7ACBFB36F83764720A59 /* UIKit.framework */; };
+		A08532FA83E11CB997AC53822BDF5D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1310D6EC5D51D33497F7499F9F52BB7 /* Foundation.framework */; };
+		A5FF10C94D88090847623005CEDABC74 /* SGSScanUtilDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DB01115640D2901D5AF719B7FBAFF5 /* SGSScanUtilDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE4084E997D866B2AAEC1C3AD2279171 /* SGSScannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 39313F74511C0E674499FABFC25287E9 /* SGSScannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5B3ED6D61AAB02B2A33E7FC9AB698CA /* scanner_nav_back_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 43FF6ECF15DF7962457DBF8F9238366C /* scanner_nav_back_normal.png */; };
+		C9C790250864DBCAA1B871DB166651E8 /* SGSScanUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 101EF2B3C6B4C5FDF36224BF42E879C8 /* SGSScanUtil.m */; };
 		D98812CD1269CB52FEFFEAAB52908FEF /* Pods-SGSScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C02ADC568DC5ACE8AB0DFE12F07182 /* Pods-SGSScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA574B79D67D3400989CAF798863C1B7 /* Pods-SGSScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 135B7CD6163211B9B7BFF37A52CE773C /* Pods-SGSScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE19DF218A371657F2BD67EB32F7D36D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		EB1083B1837D09AFF543C8A92700205D /* SGSScannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BB1AAE33E9D7A2E21F9E6CD5440A0 /* SGSScannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7324576CDFCB0D44DA7230D2B9082A8 /* SGSScanPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0F136F472CA341EDF790682890F24A /* SGSScanPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FECD036A6E53C516827A89007BE66AFF /* SGSScanUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4699928CD508F051C8FDFCB944E4347A /* SGSScanUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB27153A1248EA488937F4E70536CA00 /* scanner_blue_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 921C5C7F8974578031011F7C3E12D38E /* scanner_blue_line.png */; };
+		EB1083B1837D09AFF543C8A92700205D /* SGSScannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C9CB084DACFAABE2ACC49F681B15C3 /* SGSScannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7324576CDFCB0D44DA7230D2B9082A8 /* SGSScanPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0ECE08F36D8B916EC6ACF6E5E587894 /* SGSScanPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FECD036A6E53C516827A89007BE66AFF /* SGSScanUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AE389E1CE9B3D569A5FF9F85C47F416A /* SGSScanUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,63 +49,96 @@
 			remoteGlobalIDString = 91513841CBAA2D62B73B86307199AC2B;
 			remoteInfo = SGSScanner;
 		};
+		FA876CFC373CC1240BFDCA7503FAB436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F85BB6D1BA6A1DFEAF149DDD1BBF40;
+			remoteInfo = "SGSScanner-SGSScanner";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005BB1AAE33E9D7A2E21F9E6CD5440A0 /* SGSScannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScannerView.h; sourceTree = "<group>"; };
-		06730381E06B71A33AF7B37C133D974C /* NSBundle+SGSScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SGSScanner.m"; sourceTree = "<group>"; };
-		072C557C32B2754FF458ACB540663F23 /* SGSScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSScanner.xcconfig; sourceTree = "<group>"; };
+		01DF7486DA9C7ACBFB36F83764720A59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		101EF2B3C6B4C5FDF36224BF42E879C8 /* SGSScanUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScanUtil.m; sourceTree = "<group>"; };
 		135B7CD6163211B9B7BFF37A52CE773C /* Pods-SGSScanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGSScanner_Tests-umbrella.h"; sourceTree = "<group>"; };
+		14F7CD4868CC290CE5369CFA76A1CA9B /* SGSScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SGSScanner.modulemap; sourceTree = "<group>"; };
 		15843A7D933A7B82DCD2B7CD87CD6E36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		171672E75ACB80AC692C797BD89E92B2 /* Pods-SGSScanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSScanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		186692D719AA4DEE4088FE23711B5DF7 /* SGSScanPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScanPreviewView.m; sourceTree = "<group>"; };
-		1E074887347844C01B657E2AE6883121 /* SGSScanUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScanUtil.m; sourceTree = "<group>"; };
+		20D601663A4CA1CCE5C036C79F173A3A /* SGSScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SGSScanner.bundle; path = SGSScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C18C58EADDDD26D6756B8E8AC547AE /* SGSScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanner.h; sourceTree = "<group>"; };
+		227E12B3C9FB581F2ECF2DD3DCDE9B02 /* SGSScanPreviewStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanPreviewStyle.h; sourceTree = "<group>"; };
 		236F665A6F07EDA149DFDEE6C858C798 /* Pods-SGSScanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSScanner_Example-dummy.m"; sourceTree = "<group>"; };
+		2572C44DFCAE1216805D463E9CE9E628 /* SGSScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSScanner-umbrella.h"; sourceTree = "<group>"; };
 		319294AD53413C64054213E1EB3D54B3 /* Pods-SGSScanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SGSScanner_Tests.modulemap"; sourceTree = "<group>"; };
-		329F4E82F80BF96C17B370D3C6520C78 /* Pods_SGSScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGSScanner_Tests.framework; path = "Pods-SGSScanner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32569DA08CD3C9BB20ED87EF594BF701 /* scanner_nav_back_pressed.png */ = {isa = PBXFileReference; includeInIndex = 1; path = scanner_nav_back_pressed.png; sourceTree = "<group>"; };
 		35F1ED347BDC84C327BF7AB88996794F /* Pods-SGSScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		40CFF1923A5A7D1897B25DF92206A2A0 /* SGSScanPreviewStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanPreviewStyle.h; sourceTree = "<group>"; };
-		41C526650483ED8E01DD294BB671302B /* SGSScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScannerViewController.h; sourceTree = "<group>"; };
-		4699928CD508F051C8FDFCB944E4347A /* SGSScanUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanUtil.h; sourceTree = "<group>"; };
+		39313F74511C0E674499FABFC25287E9 /* SGSScannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScannerDelegate.h; sourceTree = "<group>"; };
+		3F441A884BFEB2795AF67AFBD9E3937B /* ResourceBundle-SGSScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SGSScanner-Info.plist"; sourceTree = "<group>"; };
+		43FF6ECF15DF7962457DBF8F9238366C /* scanner_nav_back_normal.png */ = {isa = PBXFileReference; includeInIndex = 1; path = scanner_nav_back_normal.png; sourceTree = "<group>"; };
+		45C9CB084DACFAABE2ACC49F681B15C3 /* SGSScannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScannerView.h; sourceTree = "<group>"; };
+		4B33F3C70D4555FB19B8280458862FFE /* SGSScannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScannerView.m; sourceTree = "<group>"; };
+		4C4E4801E2AA256D83E420AFD52B9DFE /* SGSScanPreviewStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScanPreviewStyle.m; sourceTree = "<group>"; };
 		548F18EB4791774C467952BCAE95364F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571A1DAFA105B3CC79474110CB67FE4B /* Pods-SGSScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C6C66E4C5FED62A811DBEC207653FF7 /* SGSScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanner.h; sourceTree = "<group>"; };
 		5CF83BEE60B39F2B6D2C7387BE50974B /* Pods-SGSScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SGSScanner_Example.modulemap"; sourceTree = "<group>"; };
 		61C02ADC568DC5ACE8AB0DFE12F07182 /* Pods-SGSScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGSScanner_Example-umbrella.h"; sourceTree = "<group>"; };
-		6F64B4001771C00FEB01CA268D4F393D /* SGSScanUtilDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanUtilDelegate.h; sourceTree = "<group>"; };
+		677906D340BE4719D2C88ACEF73D1732 /* SGSScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSScanner-prefix.pch"; sourceTree = "<group>"; };
+		72FEE101CACF7AC0906D397660A526AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7827BC11A0738EB6E398D68817660723 /* SGSScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGSScanner.framework; path = SGSScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D398F26FB88DFBB7CE04A63F47290AD /* Pods-SGSScanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGSScanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		826C7A28AA5755CBFB8416D4505D8632 /* Pods_SGSScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGSScanner_Example.framework; path = "Pods-SGSScanner_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A7F1F1E2C0C1FC1A297FC58B782D25 /* SGSScanPreviewStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScanPreviewStyle.m; sourceTree = "<group>"; };
-		8E0F136F472CA341EDF790682890F24A /* SGSScanPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanPreviewView.h; sourceTree = "<group>"; };
+		84DB01115640D2901D5AF719B7FBAFF5 /* SGSScanUtilDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanUtilDelegate.h; sourceTree = "<group>"; };
+		8B35EEF72C267E5649D01E81C2C6727D /* scanner_grid.png */ = {isa = PBXFileReference; includeInIndex = 1; path = scanner_grid.png; sourceTree = "<group>"; };
 		8F9171DD8C03E931A3FAAEDAB01A52DF /* Pods-SGSScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGSScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9120C73EEE3E059932044C6228175F8D /* NSBundle+SGSScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SGSScanner.h"; sourceTree = "<group>"; };
+		921C5C7F8974578031011F7C3E12D38E /* scanner_blue_line.png */ = {isa = PBXFileReference; includeInIndex = 1; path = scanner_blue_line.png; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97CB0DC191010505AE91E9DD24027B81 /* Pods-SGSScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A68BE999C6E49972AD13FA7B73B23F78 /* SGSScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SGSScanner.modulemap; sourceTree = "<group>"; };
+		99EDDA95F2A469C563A4595677C55E60 /* NSBundle+SGSScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SGSScanner.m"; sourceTree = "<group>"; };
+		9D39F7F5A78501E160FF7D33DF8A798E /* SGSScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSScanner.xcconfig; sourceTree = "<group>"; };
+		A4B594D09EB3A73A1C487DF7A34F918D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD94EAA124CE05E9EDAC95A3B917F0B5 /* Pods_SGSScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGSScanner_Tests.framework; path = "Pods-SGSScanner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE389E1CE9B3D569A5FF9F85C47F416A /* SGSScanUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanUtil.h; sourceTree = "<group>"; };
 		AFD107A7A391BAEBD779C049EA2BB9B7 /* Pods-SGSScanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSScanner_Tests-dummy.m"; sourceTree = "<group>"; };
 		B28E652E3B3A76F22E591835679D6113 /* Pods-SGSScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B52CD3F6B75AE3C8CD80A08B708A432B /* SGSScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSScanner-umbrella.h"; sourceTree = "<group>"; };
 		B5F28B3E822E1C0D92517BA2E7EC030F /* Pods-SGSScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B9CBA64AF90374EF1DFB6B142952FE02 /* SGSScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSScanner-prefix.pch"; sourceTree = "<group>"; };
-		BED479D8079CCFF051BD54BABFB68367 /* SGSScannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScannerView.m; sourceTree = "<group>"; };
-		BF2DFF673EAA860A27A3DE981CE65D3A /* SGSScannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScannerDelegate.h; sourceTree = "<group>"; };
-		C86959D7D495F8E3BF44D2E36484B453 /* SGSScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScannerViewController.m; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA906E1EE5E77880B64EB5AE25DFD3D0 /* SGSScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSScanner-dummy.m"; sourceTree = "<group>"; };
+		BC7DCF80EB52D8BA61B46C8693682739 /* SGSScanPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScanPreviewView.m; sourceTree = "<group>"; };
+		C1310D6EC5D51D33497F7499F9F52BB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF39FF32C2A63CE7CFA948CDFDC41DD0 /* Pods-SGSScanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSScanner_Example-resources.sh"; sourceTree = "<group>"; };
-		D0D6C945B34B639241CAF989F6FAE8AD /* SGSScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSScanner-dummy.m"; sourceTree = "<group>"; };
+		D0ECE08F36D8B916EC6ACF6E5E587894 /* SGSScanPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScanPreviewView.h; sourceTree = "<group>"; };
 		D14F1AB577AF58A023E0DEB7F8227FE5 /* Pods-SGSScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DB873714A0EEF7FCB8D18EB7B9A2CB10 /* NSBundle+SGSScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SGSScanner.h"; sourceTree = "<group>"; };
+		DE2144FCDD92DA6C63DA5BAF11807A01 /* scanner_green_line.png */ = {isa = PBXFileReference; includeInIndex = 1; path = scanner_green_line.png; sourceTree = "<group>"; };
+		E9279403F6191C8BD17FA975593179F8 /* Pods_SGSScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGSScanner_Example.framework; path = "Pods-SGSScanner_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACA32237B749DBB7B9C971B4887D7F7 /* Pods-SGSScanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSScanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EEC824CAA1CFF6FD16A5B879DEEC2442 /* SGSScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGSScannerViewController.m; sourceTree = "<group>"; };
+		F44502078D0356091EA241847DB06A4A /* SGSScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGSScannerViewController.h; sourceTree = "<group>"; };
 		F5A37EDE41C62861B3F58C2671910040 /* Pods-SGSScanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSScanner_Tests-resources.sh"; sourceTree = "<group>"; };
-		FC77663FB771F5ED4503E2DEFA51B4D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF4734E074E2B01AB10D9D5BAB975C9C /* SGSScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGSScanner.framework; path = SGSScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D66D7DB9B2B6A86A8657CB178AE525A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4312583E36DBA3131E1A3C4BDB2DBA9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				70DE58F8B37F99B535B1CCA3ABE75986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6120268F564AF7B0CEA7A43B5CF99A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A1C1CD4AB69A2888904F5972675AEE /* AVFoundation.framework in Frameworks */,
+				5F08B9545ECC1BE3A900262CE9C578F3 /* Foundation.framework in Frameworks */,
+				9ECF0E3CEC5B62CC2BCCB69E799ED8FE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,80 +150,161 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E5C8F95F20267A59BD1F5E72208513 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE19DF218A371657F2BD67EB32F7D36D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A0FAE2D55C4B0B4628DCED88E75292C /* SGSScanner */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				872CF14A1F9ED62094C98155571DE1BE /* SGSScanner */,
-				F5857FC4549422F531E335662C9E533B /* Support Files */,
+				6F636F190E8358172B07A737059AF70D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1544BBEA508FB9F7836C937C24DD081F /* SGSScanner */ = {
+			isa = PBXGroup;
+			children = (
+				278B3D29B8BE225AAA6B81EED482AE74 /* Core */,
+				E8B22EAE0E742E5FABFF9FAED5A2E619 /* Resources */,
+				CBA9A1519E47A00F49E02480FA6F984F /* SGSScanner */,
+				5EB470040C4B9BB946E544AC6DD56932 /* Support Files */,
 			);
 			name = SGSScanner;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		5AC8C0F0AEF9FCB39E8AE405B20A332A /* Core */ = {
+		278B3D29B8BE225AAA6B81EED482AE74 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				DB873714A0EEF7FCB8D18EB7B9A2CB10 /* NSBundle+SGSScanner.h */,
-				06730381E06B71A33AF7B37C133D974C /* NSBundle+SGSScanner.m */,
-				40CFF1923A5A7D1897B25DF92206A2A0 /* SGSScanPreviewStyle.h */,
-				84A7F1F1E2C0C1FC1A297FC58B782D25 /* SGSScanPreviewStyle.m */,
-				8E0F136F472CA341EDF790682890F24A /* SGSScanPreviewView.h */,
-				186692D719AA4DEE4088FE23711B5DF7 /* SGSScanPreviewView.m */,
-				4699928CD508F051C8FDFCB944E4347A /* SGSScanUtil.h */,
-				1E074887347844C01B657E2AE6883121 /* SGSScanUtil.m */,
-				6F64B4001771C00FEB01CA268D4F393D /* SGSScanUtilDelegate.h */,
+				76CB8AEA6D480286C8BEE0D59E04C9B2 /* SGSScanner */,
 			);
 			name = Core;
-			path = Core;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		3035DD6C98DA8E8702032EA34FB6B6A8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				1544BBEA508FB9F7836C937C24DD081F /* SGSScanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3C98268FAB1AFEDF3996B7DE684849AA /* SGSScanner */ = {
+			isa = PBXGroup;
+			children = (
+				8289C2C6DEB9D6DA58756857C16F0CE3 /* Assets */,
+			);
+			name = SGSScanner;
+			path = SGSScanner;
+			sourceTree = "<group>";
+		};
+		533EA574570AE9A7F85DDD25BC1C8659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9279403F6191C8BD17FA975593179F8 /* Pods_SGSScanner_Example.framework */,
+				AD94EAA124CE05E9EDAC95A3B917F0B5 /* Pods_SGSScanner_Tests.framework */,
+				20D601663A4CA1CCE5C036C79F173A3A /* SGSScanner.bundle */,
+				7827BC11A0738EB6E398D68817660723 /* SGSScanner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB470040C4B9BB946E544AC6DD56932 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4B594D09EB3A73A1C487DF7A34F918D /* Info.plist */,
+				3F441A884BFEB2795AF67AFBD9E3937B /* ResourceBundle-SGSScanner-Info.plist */,
+				14F7CD4868CC290CE5369CFA76A1CA9B /* SGSScanner.modulemap */,
+				9D39F7F5A78501E160FF7D33DF8A798E /* SGSScanner.xcconfig */,
+				BA906E1EE5E77880B64EB5AE25DFD3D0 /* SGSScanner-dummy.m */,
+				677906D340BE4719D2C88ACEF73D1732 /* SGSScanner-prefix.pch */,
+				2572C44DFCAE1216805D463E9CE9E628 /* SGSScanner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SGSScanner";
+			sourceTree = "<group>";
+		};
+		6F636F190E8358172B07A737059AF70D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				72FEE101CACF7AC0906D397660A526AB /* AVFoundation.framework */,
+				C1310D6EC5D51D33497F7499F9F52BB7 /* Foundation.framework */,
+				01DF7486DA9C7ACBFB36F83764720A59 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		76CB8AEA6D480286C8BEE0D59E04C9B2 /* SGSScanner */ = {
+			isa = PBXGroup;
+			children = (
+				AF261F4C25ADB35378F49B5629306D6F /* Classes */,
+			);
+			name = SGSScanner;
+			path = SGSScanner;
+			sourceTree = "<group>";
+		};
+		7897099D6E51AF307BE20B182A359293 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				21C18C58EADDDD26D6756B8E8AC547AE /* SGSScanner.h */,
+				39313F74511C0E674499FABFC25287E9 /* SGSScannerDelegate.h */,
+				45C9CB084DACFAABE2ACC49F681B15C3 /* SGSScannerView.h */,
+				4B33F3C70D4555FB19B8280458862FFE /* SGSScannerView.m */,
+				F44502078D0356091EA241847DB06A4A /* SGSScannerViewController.h */,
+				EEC824CAA1CFF6FD16A5B879DEEC2442 /* SGSScannerViewController.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F0D2C2FF4883A97D3DFF540DF4BE450D /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				AA6DAC61FEECF2690BB48CA6560EDC53 /* Products */,
+				3035DD6C98DA8E8702032EA34FB6B6A8 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				533EA574570AE9A7F85DDD25BC1C8659 /* Products */,
 				B7AD8608450B8F47BABA590068EC14AB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		872CF14A1F9ED62094C98155571DE1BE /* SGSScanner */ = {
+		80515FD159DCBCE073754BA573D42344 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C15033C94EFC770204A2A871B41DAA1C /* Classes */,
+				9120C73EEE3E059932044C6228175F8D /* NSBundle+SGSScanner.h */,
+				99EDDA95F2A469C563A4595677C55E60 /* NSBundle+SGSScanner.m */,
+				227E12B3C9FB581F2ECF2DD3DCDE9B02 /* SGSScanPreviewStyle.h */,
+				4C4E4801E2AA256D83E420AFD52B9DFE /* SGSScanPreviewStyle.m */,
+				D0ECE08F36D8B916EC6ACF6E5E587894 /* SGSScanPreviewView.h */,
+				BC7DCF80EB52D8BA61B46C8693682739 /* SGSScanPreviewView.m */,
+				AE389E1CE9B3D569A5FF9F85C47F416A /* SGSScanUtil.h */,
+				101EF2B3C6B4C5FDF36224BF42E879C8 /* SGSScanUtil.m */,
+				84DB01115640D2901D5AF719B7FBAFF5 /* SGSScanUtilDelegate.h */,
 			);
-			name = SGSScanner;
-			path = SGSScanner;
+			name = Core;
+			path = Core;
 			sourceTree = "<group>";
 		};
-		AA6DAC61FEECF2690BB48CA6560EDC53 /* Products */ = {
+		8289C2C6DEB9D6DA58756857C16F0CE3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				826C7A28AA5755CBFB8416D4505D8632 /* Pods_SGSScanner_Example.framework */,
-				329F4E82F80BF96C17B370D3C6520C78 /* Pods_SGSScanner_Tests.framework */,
-				FF4734E074E2B01AB10D9D5BAB975C9C /* SGSScanner.framework */,
+				921C5C7F8974578031011F7C3E12D38E /* scanner_blue_line.png */,
+				DE2144FCDD92DA6C63DA5BAF11807A01 /* scanner_green_line.png */,
+				8B35EEF72C267E5649D01E81C2C6727D /* scanner_grid.png */,
+				43FF6ECF15DF7962457DBF8F9238366C /* scanner_nav_back_normal.png */,
+				32569DA08CD3C9BB20ED87EF594BF701 /* scanner_nav_back_pressed.png */,
 			);
-			name = Products;
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AF261F4C25ADB35378F49B5629306D6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				80515FD159DCBCE073754BA573D42344 /* Core */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B7AD8608450B8F47BABA590068EC14AB /* Targets Support Files */ = {
@@ -192,14 +314,6 @@
 				DAB759D64C7520A48FED46CBBA1723E2 /* Pods-SGSScanner_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BF0883559FED239E73D1B3D4D9414236 /* Pods-SGSScanner_Example */ = {
@@ -220,19 +334,13 @@
 			path = "Target Support Files/Pods-SGSScanner_Example";
 			sourceTree = "<group>";
 		};
-		C15033C94EFC770204A2A871B41DAA1C /* Classes */ = {
+		CBA9A1519E47A00F49E02480FA6F984F /* SGSScanner */ = {
 			isa = PBXGroup;
 			children = (
-				5C6C66E4C5FED62A811DBEC207653FF7 /* SGSScanner.h */,
-				BF2DFF673EAA860A27A3DE981CE65D3A /* SGSScannerDelegate.h */,
-				005BB1AAE33E9D7A2E21F9E6CD5440A0 /* SGSScannerView.h */,
-				BED479D8079CCFF051BD54BABFB68367 /* SGSScannerView.m */,
-				41C526650483ED8E01DD294BB671302B /* SGSScannerViewController.h */,
-				C86959D7D495F8E3BF44D2E36484B453 /* SGSScannerViewController.m */,
-				5AC8C0F0AEF9FCB39E8AE405B20A332A /* Core */,
+				7897099D6E51AF307BE20B182A359293 /* Classes */,
 			);
-			name = Classes;
-			path = Classes;
+			name = SGSScanner;
+			path = SGSScanner;
 			sourceTree = "<group>";
 		};
 		DAB759D64C7520A48FED46CBBA1723E2 /* Pods-SGSScanner_Tests */ = {
@@ -253,26 +361,12 @@
 			path = "Target Support Files/Pods-SGSScanner_Tests";
 			sourceTree = "<group>";
 		};
-		F0D2C2FF4883A97D3DFF540DF4BE450D /* Development Pods */ = {
+		E8B22EAE0E742E5FABFF9FAED5A2E619 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0A0FAE2D55C4B0B4628DCED88E75292C /* SGSScanner */,
+				3C98268FAB1AFEDF3996B7DE684849AA /* SGSScanner */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F5857FC4549422F531E335662C9E533B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC77663FB771F5ED4503E2DEFA51B4D7 /* Info.plist */,
-				A68BE999C6E49972AD13FA7B73B23F78 /* SGSScanner.modulemap */,
-				072C557C32B2754FF458ACB540663F23 /* SGSScanner.xcconfig */,
-				D0D6C945B34B639241CAF989F6FAE8AD /* SGSScanner-dummy.m */,
-				B9CBA64AF90374EF1DFB6B142952FE02 /* SGSScanner-prefix.pch */,
-				B52CD3F6B75AE3C8CD80A08B708A432B /* SGSScanner-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SGSScanner";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,7 +422,7 @@
 			);
 			name = "Pods-SGSScanner_Tests";
 			productName = "Pods-SGSScanner_Tests";
-			productReference = 329F4E82F80BF96C17B370D3C6520C78 /* Pods_SGSScanner_Tests.framework */;
+			productReference = AD94EAA124CE05E9EDAC95A3B917F0B5 /* Pods_SGSScanner_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		48E28847639025FB3EC8F28FB32159FA /* Pods-SGSScanner_Example */ = {
@@ -346,7 +440,7 @@
 			);
 			name = "Pods-SGSScanner_Example";
 			productName = "Pods-SGSScanner_Example";
-			productReference = 826C7A28AA5755CBFB8416D4505D8632 /* Pods_SGSScanner_Example.framework */;
+			productReference = E9279403F6191C8BD17FA975593179F8 /* Pods_SGSScanner_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		91513841CBAA2D62B73B86307199AC2B /* SGSScanner */ = {
@@ -354,17 +448,36 @@
 			buildConfigurationList = 0AC64676830265B6EEBA98A3BD6252BE /* Build configuration list for PBXNativeTarget "SGSScanner" */;
 			buildPhases = (
 				B27C89A193906FEA931DBC78EF9F6996 /* Sources */,
-				D4E5C8F95F20267A59BD1F5E72208513 /* Frameworks */,
+				6120268F564AF7B0CEA7A43B5CF99A80 /* Frameworks */,
+				CD88FC53A62C5CCCBFAB3033CAC58F73 /* Resources */,
 				7D764937E923936E68B200B0788AA137 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8EB61BC0C6070774E2135E1C29E1FBD9 /* PBXTargetDependency */,
 			);
 			name = SGSScanner;
 			productName = SGSScanner;
-			productReference = FF4734E074E2B01AB10D9D5BAB975C9C /* SGSScanner.framework */;
+			productReference = 7827BC11A0738EB6E398D68817660723 /* SGSScanner.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		D1F85BB6D1BA6A1DFEAF149DDD1BBF40 /* SGSScanner-SGSScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2BBAF00488AFDEE294E44439D36E07 /* Build configuration list for PBXNativeTarget "SGSScanner-SGSScanner" */;
+			buildPhases = (
+				5AB4377608D0D95C59EF15FBDE9DB7FA /* Sources */,
+				1D66D7DB9B2B6A86A8657CB178AE525A /* Frameworks */,
+				2013296A1B433B00D6FE73DF24634084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SGSScanner-SGSScanner";
+			productName = "SGSScanner-SGSScanner";
+			productReference = 20D601663A4CA1CCE5C036C79F173A3A /* SGSScanner.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -383,16 +496,40 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = AA6DAC61FEECF2690BB48CA6560EDC53 /* Products */;
+			productRefGroup = 533EA574570AE9A7F85DDD25BC1C8659 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				48E28847639025FB3EC8F28FB32159FA /* Pods-SGSScanner_Example */,
 				214B9C50F7A39FC967FE3B1176578FC4 /* Pods-SGSScanner_Tests */,
 				91513841CBAA2D62B73B86307199AC2B /* SGSScanner */,
+				D1F85BB6D1BA6A1DFEAF149DDD1BBF40 /* SGSScanner-SGSScanner */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2013296A1B433B00D6FE73DF24634084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB27153A1248EA488937F4E70536CA00 /* scanner_blue_line.png in Resources */,
+				256DB458C6FC1E73E1F8FAFF549A6B3B /* scanner_green_line.png in Resources */,
+				0BDCAC10AFE9DD62C7310C158682DD76 /* scanner_grid.png in Resources */,
+				C5B3ED6D61AAB02B2A33E7FC9AB698CA /* scanner_nav_back_normal.png in Resources */,
+				65608FF7E6DBAA460668DB72A91356FA /* scanner_nav_back_pressed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD88FC53A62C5CCCBFAB3033CAC58F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5EE830C6D386E5CCAC1D4EF11DB01B /* SGSScanner.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		082ADA2BEB40EA5E5EEC4A729D632F65 /* Sources */ = {
@@ -400,6 +537,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				68A33E159AE70FCBA71B2EBBDF06978D /* Pods-SGSScanner_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB4377608D0D95C59EF15FBDE9DB7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,12 +578,18 @@
 			target = 91513841CBAA2D62B73B86307199AC2B /* SGSScanner */;
 			targetProxy = 811550A7DEEA2286A3FFC08BF88E0ABD /* PBXContainerItemProxy */;
 		};
+		8EB61BC0C6070774E2135E1C29E1FBD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SGSScanner-SGSScanner";
+			target = D1F85BB6D1BA6A1DFEAF149DDD1BBF40 /* SGSScanner-SGSScanner */;
+			targetProxy = FA876CFC373CC1240BFDCA7503FAB436 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0E5F00DB85348D3EA588C2200F466E3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 072C557C32B2754FF458ACB540663F23 /* SGSScanner.xcconfig */;
+			baseConfigurationReference = 9D39F7F5A78501E160FF7D33DF8A798E /* SGSScanner.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -470,7 +620,7 @@
 		};
 		2F76B316F470CA606EC603C6DCA7DC64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 072C557C32B2754FF458ACB540663F23 /* SGSScanner.xcconfig */;
+			baseConfigurationReference = 9D39F7F5A78501E160FF7D33DF8A798E /* SGSScanner.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -496,6 +646,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		712CEBC29AC194752DE418E7172B3019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D39F7F5A78501E160FF7D33DF8A798E /* SGSScanner.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SGSScanner";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SGSScanner/ResourceBundle-SGSScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SGSScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -723,6 +890,23 @@
 			};
 			name = Release;
 		};
+		FB8B0B12347A64A0D941F6329841B729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D39F7F5A78501E160FF7D33DF8A798E /* SGSScanner.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SGSScanner";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SGSScanner/ResourceBundle-SGSScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SGSScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -731,6 +915,15 @@
 			buildConfigurations = (
 				2F76B316F470CA606EC603C6DCA7DC64 /* Debug */,
 				0E5F00DB85348D3EA588C2200F466E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D2BBAF00488AFDEE294E44439D36E07 /* Build configuration list for PBXNativeTarget "SGSScanner-SGSScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712CEBC29AC194752DE418E7172B3019 /* Debug */,
+				FB8B0B12347A64A0D941F6329841B729 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

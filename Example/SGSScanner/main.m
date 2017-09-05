@@ -2,8 +2,8 @@
 //  main.m
 //  SGSScanner
 //
-//  Created by CharlsPrince on 09/05/2017.
-//  Copyright (c) 2017 CharlsPrince. All rights reserved.
+//  Created by Lee on 01/12/2017.
+//  Copyright (c) 2017 Lee. All rights reserved.
 //
 
 @import UIKit;
